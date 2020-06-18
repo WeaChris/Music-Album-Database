@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="noPlayer.client.editor.Tsotras">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" prefHeight="400.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Label layoutX="60.0" layoutY="14.0" text="Label" />
+                  <ListView layoutX="-5.0" layoutY="59.0" prefHeight="341.0" prefWidth="184.0" />
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="356.0" prefWidth="418.0">
+               <children>
+                  <ImageView fitHeight="63.0" fitWidth="84.0" layoutX="167.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <ListView layoutY="99.0" prefHeight="302.0" prefWidth="417.0" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
